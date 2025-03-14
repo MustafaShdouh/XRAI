@@ -64,7 +64,7 @@ config = GenerateContentConfig(
 )
 
 # Set the path to the X-ray image.
-image_path = os.path.join("dataset", "IM-0011-0001-0002.jpeg")
+image_path = os.path.join("Dataset", "IM-0011-0001-0002.jpeg")
 if not os.path.exists(image_path):
     raise FileNotFoundError(f"Image not found at path: {image_path}")
 
